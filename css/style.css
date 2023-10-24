@@ -69,15 +69,20 @@
     gap: 25px;
 }
 
+
 .main-container h2{
     color: var(--dark);
     font-size: 50px;
 }
 
-.main-col2{
-    background-image: url("../img/main/lanche-principal.png");
-    background-size: cover;
-    border: 2px solid black;
+.figure-main{
+    position: relative;   
+}
+
+.img-price{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .main-button{
