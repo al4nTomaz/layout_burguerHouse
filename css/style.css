@@ -53,24 +53,26 @@
 
 .main-container{
     display: flex;
-    text-align: center;
-
+    flex-wrap: wrap;
+    /* text-align: center; */
+    padding: 20px 20px;
+    gap: 100px;
     background-color: var(--AMARELO);
-
+    align-items: center;
+    justify-content: center;
 }
 
 .main-col1{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     padding: 70px 20px;
     flex-direction: column;
-    justify-content:right;
     gap: 25px;
 }
 
 
-.main-container h2{
+.main-col2 h2{
     color: var(--dark);
     font-size: 50px;
 }
@@ -88,8 +90,8 @@
 .main-button{
     padding: 20px 50px;
     border: none;
-    background-color: var(--AMARELO);
-    color: var(--light);
+    background-color: var(--VERMELHO);
+    color: white;
     border-radius: 5px;
 }
 
@@ -101,7 +103,18 @@
     flex-direction: column;
     gap: 30px;
 
-    padding: 50px;
+    /* padding: 50px; */
+}
+
+.sec1-m-title{
+    background-color: var(--AMARELO);
+    padding: 10px;
+    
+}
+
+.sec1-m-title h5{
+    color: var(--dark);
+    font-size: 15px;
 }
 
 .sec-1 h2{
@@ -119,22 +132,15 @@
 }
 
 .card{
-    width: 250px;
-    height: 250px;
     
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    
-    border-radius: 5px;
-    
-    background-color: var(--secondary);
 }
 
 .card-inside{
-    width: 220px;
-    height: 220px;
+    
     
     display: flex;
     flex-wrap: wrap;
@@ -142,16 +148,11 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    
-    background-color: white;
-    border: 1px solid var(--AMARELO);
-    
-    border-radius: 5px;
 }
 
-.text-card{
+/* .text-card{
     color: var(--AMARELO);
-}
+} */
 
 .sec-2{ 
     align-items: center;
@@ -254,30 +255,34 @@ form {
 }
 
 .container-form-input{
-    width: 100%;
     display: flex;
-    
     gap: 5px;
 }
 
 input[type="text"],
 input[type="email"], 
-input[type="tel"] {
+input[type="subject"], 
+input[type="tel"]{
     width: 50%;
     padding: 15px;
     border-radius: 5px;
+    border: none;
+    background-color: var(--AMARELO);
 }
 
-input[type="subject"], 
-textarea {
+.container-form-input .main-button{
+    width: 50%;
+}
+
+/* textarea {
     width: 100%;
     padding: 15px;
     border-radius: 5px;
-}
+} 
 
 textarea{
     height: 150px;
-}
+}*/
 
 
 
