@@ -56,7 +56,7 @@
     flex-wrap: wrap;
     /* text-align: center; */
     padding: 20px 20px;
-    gap: 100px;
+    gap: 10px;
     background-color: var(--AMARELO);
     align-items: center;
     justify-content: center;
@@ -66,15 +66,15 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 70px 20px;
+    padding: 30px 20px;
     flex-direction: column;
     gap: 25px;
 }
 
 
-.main-col2 h2{
+.main-col1 h1{
     color: var(--dark);
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 .figure-main{
@@ -103,7 +103,6 @@
     flex-direction: column;
     gap: 30px;
 
-    /* padding: 50px; */
 }
 
 .sec1-m-title{
@@ -114,12 +113,16 @@
 
 .sec1-m-title h5{
     color: var(--dark);
-    font-size: 15px;
+    font-size: 0.8rem;
 }
 
-.sec-1 h2{
-    color: var(--dark);
-    font-size: 40px;
+.section-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
 }
 
 .cards-sec-1{
@@ -127,7 +130,7 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-
+     
     gap: 30px;
 }
 
@@ -150,74 +153,8 @@
     gap: 10px;
 }
 
-/* .text-card{
-    color: var(--AMARELO);
-} */
-
-.sec-2{ 
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 30px;
-
-    padding: 50px;
-    background-color: var(--secondary);
-}
-
-.sec-2 h2{
-    color: var(--dark);
-    font-size: 40px;
-}
-
-.cards-sec-2{
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 30px;
-}
-
-.card-sec-2{    
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 10px;
-    background-color: white;
-    border-radius: 5px;
-}
-
-.texts-card-2{
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.card-sec-2 figure img{
-    width: 450px;
-    height: 300px;
-}
-
-.card-localization-icon{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 10 px;
-}
-
-.card-localization-icon img{
-    width: 15px;
-    height: 20px;
-    background-color: var(--AMARELO);
-}
-
-.sec-3{
+.sec-2{
+    width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -228,15 +165,15 @@
     padding: 30px;
 }
 
-.sec-3 h2{
+.sec-2 h2{
     color: var(--dark);
     font-size: 40px;
 }
 
 form {
-    width: 60%;
-    margin: auto;
-    padding: 20px;
+    width: 80%;
+    
+    /* padding: 20px; */
   
     display: flex;
     flex-wrap: wrap;
@@ -299,17 +236,30 @@ textarea{
 
 }
 
+.footer-row1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px white;
+}
+
 .col-footer-1{
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* align-items: center; */
 }
 
+.footer-logo{
+    width: 75%;
+    height: 75%;
+}
 
 .container-footer h5{
     color: white;
 }
+
 
 .col-footer-1 p {
     display: flex;
@@ -322,11 +272,6 @@ textarea{
     height: 25px;
 }
 
-.col-footer-1 .img-email{
-    width: 25px;
-    height: 22px;
-}
-
 .col-footer-1 a img{
     width: 60px;
     height: 60  px;
@@ -337,9 +282,27 @@ textarea{
 .col-footer-2{
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
+    flex-direction: row;
+    border: 2px solid white;
+    flex-direction: column;
+    align-self: center;
 }
+
+.icon-text{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col-footer-2 img{
+    width: 1.5rem;
+    height: 20%;
+    padding: 5px;
+}
+
 
 .ancora-footer{
     display: flex;
